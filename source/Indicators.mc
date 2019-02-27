@@ -3,7 +3,6 @@ using Toybox.ActivityMonitor as Act;
 using Toybox.Application as App;
 using Toybox.Graphics;
 using Toybox.Math;
-using Toybox.Sensor;
 using Toybox.SensorHistory as SH;
 using Toybox.System as Sys;
 using Toybox.Time;
@@ -52,6 +51,7 @@ class Indicators extends WatchUi.Drawable {
 			drawAlarmIcon(dc, 42, 6, 12);
 		}
 		drawTime(dc, 73, 50);
+		drawStepsGraph(dc, 73, 165);
 		drawHeartrate(dc, 73, 165);
 		drawActivity(dc, 73, 202);
 		
@@ -174,12 +174,11 @@ class Indicators extends WatchUi.Drawable {
 		dc.setColor(Graphics.COLOR_RED , Graphics.COLOR_TRANSPARENT);
 		dc.setPenWidth(2);
 		
-		var colon = 4;
-		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var date = Lang.format("$1$, $2$ $3$, $4$", [today.day_of_week, today.month, today.day, today.year]);
-		dc.drawText(x, y+36, Graphics.FONT_SMALL, date, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x, y+33, Graphics.FONT_SMALL, date, Graphics.TEXT_JUSTIFY_CENTER);
 		
+		var colon = 4;
         var hours = today.hour;
         var mins = today.min.format("%02d");
         var time = [null,null,null,null];
@@ -206,6 +205,7 @@ class Indicators extends WatchUi.Drawable {
         time[2] = mm.substring(0,1).toNumber();
         time[3] = mm.substring(1,2).toNumber();
         
+		dc.setColor(Graphics.COLOR_WHITE , Graphics.COLOR_TRANSPARENT);
         if (colon != 1) {
 			dc.setPenWidth(1);
         	dc.fillCircle(x, y+15, 3);
@@ -226,7 +226,7 @@ class Indicators extends WatchUi.Drawable {
 		for( var m=0; m<4; m++ ) {
 			for( var n=0; n<3; n++ ) {
 				if (time[m] != null && fillHorizontal[time[m]][n]==1) {
-					dc.setColor(Graphics.COLOR_RED , Graphics.COLOR_TRANSPARENT);
+					dc.setColor(Graphics.COLOR_WHITE , Graphics.COLOR_TRANSPARENT);
 				} else { 
 					dc.setColor(DK_BLUE , Graphics.COLOR_TRANSPARENT);
 				}
@@ -258,7 +258,7 @@ class Indicators extends WatchUi.Drawable {
 		for( var m=0; m<4; m++ ) {
 			for( var n=0; n<4; n++ ) {
 				if (time[m] != null && fillVertical[time[m]][n]==1) {
-					dc.setColor(Graphics.COLOR_RED , Graphics.COLOR_TRANSPARENT);
+					dc.setColor(Graphics.COLOR_WHITE , Graphics.COLOR_TRANSPARENT);
 				} else { 
 					dc.setColor(DK_BLUE , Graphics.COLOR_TRANSPARENT);
 				}
@@ -278,33 +278,58 @@ class Indicators extends WatchUi.Drawable {
 		}
 	}
 	
-	function drawHeartrate(dc, x, y) {
-		dc.setColor(LT_BLUE, Graphics.COLOR_TRANSPARENT);
+	function drawStepsGraph(dc, x, y) {
+		dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
 		dc.setPenWidth(1);
 		
-//		var temps = null;
-//		var tempC = null;
-//		var tempF = null;
-//		if (temps != null) {
-//			var temp = tempC.next();
-//			if (temp != null && temp.data != null) {
-//				tempC = temp.data;
-//				tempF = (tempC * (9/5)) + 32;
-//			}
-//		}
-//		var pts = [ 
-//			[0,y],
-//			[0,y-27], 
-//			[10,y-22], 
-//			[20,y-25], 
-//			[30,y-32], 
-//			[40,y-35], 
-//			[50,y-31], 
-//			[60,y-24],
-//			[147,y] ];
-//		dc.fillPolygon(pts);
-		
+		var actH = Act.getHistory();
+		var stepHmax = 0;
+		if (actH != null && actH.size() > 0) {
+			var stepH = [0,0,0,0,0,0,0];
+			for (var i=0; i < actH.size(); i++) {
+				if (actH[i].steps != null) {
+					stepH[i] = actH[i].steps;
+					if (stepH[i] > stepHmax) {
+						stepHmax = stepH[i];
+					}
+				}
+			}
+			
+			stepHmax = Math.ceil(stepHmax/1000.0).toNumber();
+			var mod2 = stepHmax % 2 == 0;
+			stepHmax = ((mod2 ? stepHmax : stepHmax + 1) * 1000.0).toNumber();
+			var graphScale = (40.0/stepHmax);
+			
+			var pts = [ 
+				[0,y],
+				[0,y-((stepH[6]*graphScale).toNumber())],
+				[24,y-((stepH[5]*graphScale).toNumber())], 
+				[48,y-((stepH[4]*graphScale).toNumber())], 
+				[73,y-((stepH[3]*graphScale).toNumber())], 
+				[98,y-((stepH[2]*graphScale).toNumber())], 
+				[122,y-((stepH[1]*graphScale).toNumber())], 
+				[147,y-((stepH[0]*graphScale).toNumber())], 
+				[147,y]  ];
+			dc.fillPolygon(pts);
+			
+			dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+			dc.drawCircle(0,y-((stepH[6]*graphScale).toNumber()), 3);
+			dc.drawCircle(24,y-((stepH[5]*graphScale).toNumber()), 3); 
+			dc.drawCircle(48,y-((stepH[4]*graphScale).toNumber()), 3); 
+			dc.drawCircle(73,y-((stepH[3]*graphScale).toNumber()), 3); 
+			dc.drawCircle(98,y-((stepH[2]*graphScale).toNumber()), 3); 
+			dc.drawCircle(122,y-((stepH[1]*graphScale).toNumber()), 3); 
+			dc.drawCircle(147,y-((stepH[0]*graphScale).toNumber()), 3); 
+	
+			dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+			dc.drawText(147, y-50, Graphics.FONT_TINY, (stepHmax).toString(), Graphics.TEXT_JUSTIFY_RIGHT);
+		}
+	}
+	
+	function drawHeartrate(dc, x, y) {
 		dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
+		dc.setPenWidth(1);
+		
 		dc.drawLine(0, y, 148, y);
 		dc.drawLine(0, y-10, 148, y-10);
 		dc.drawLine(0, y-20, 148, y-20);
@@ -316,17 +341,17 @@ class Indicators extends WatchUi.Drawable {
 		
 		dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
 		var ptsHeart = [ 
-			[140,y-52], 
-			[142,y-54], 
-			[144,y-54], 
+			[140,y-54], 
+			[142,y-56], 
+			[144,y-56], 
+			[145,y-55], 
 			[145,y-53], 
-			[145,y-51], 
-			[140,y-46], 
-			[135,y-51], 
+			[140,y-48], 
 			[135,y-53], 
-			[136,y-54], 
-			[138,y-54],
-			[140,y-52] ];
+			[135,y-55], 
+			[136,y-56], 
+			[138,y-56],
+			[140,y-54] ];
 		dc.fillPolygon(ptsHeart);
 		
 		var hrText = "";
@@ -351,10 +376,10 @@ class Indicators extends WatchUi.Drawable {
 		    }
 		}
 		
-		dc.drawText(132, y-60, Graphics.FONT_TINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);
+		dc.drawText(132, y-62, Graphics.FONT_TINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);
 		
 		var nowT = new Time.Moment(Time.now().value());
-		var hrDuration = new Time.Duration(14400);
+		var hrDuration = new Time.Duration(3600);
 		heartRateHistory = Act.getHeartRateHistory(hrDuration, true);
 		hrI = heartRateHistory.next();
 		if (hrI != null) {
@@ -363,11 +388,11 @@ class Indicators extends WatchUi.Drawable {
 		}
 		
 		var minHR = heartRateHistory.getMin();
-		minHR = minHR == null ? "--" : minHR;
+		minHR = minHR == 255 ? "--" : minHR;
 		var maxHR = heartRateHistory.getMax();
-		maxHR = maxHR == null ? "--" : maxHR;
-		dc.drawText(1, y-60, Graphics.FONT_TINY, "min:" + minHR, Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(73, y-60, Graphics.FONT_TINY, "max:" + maxHR, Graphics.TEXT_JUSTIFY_CENTER);
+		maxHR = maxHR == 255 ? "--" : maxHR;
+		dc.drawText(1, y-62, Graphics.FONT_TINY, "min:" + minHR, Graphics.TEXT_JUSTIFY_LEFT);
+		dc.drawText(73, y-62, Graphics.FONT_TINY, "max:" + maxHR, Graphics.TEXT_JUSTIFY_CENTER);
 		
 		dc.setPenWidth(2);
 		while (hrI != null) {
@@ -398,8 +423,8 @@ class Indicators extends WatchUi.Drawable {
 					}
 					dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
 					dc.drawLine(
-						147-((hrTPrev.toDouble()/14400.0)*147).toNumber(), y-((hrPrev-40)/4), 
-						147-((hrT.toDouble()/14400.0)*147).toNumber(), y-((hr-40)/4));
+						147-((hrTPrev.toDouble()/3600.0)*147).toNumber(), y-((hrPrev-40)/4), 
+						147-((hrT.toDouble()/3600.0)*147).toNumber(), y-((hr-40)/4));
 				}
 		    }
 		    //else if (hrI == null && hrTPrev != null && hrPrev != null) {
@@ -418,7 +443,7 @@ class Indicators extends WatchUi.Drawable {
 	}
 	
 	function drawActivity(dc, x, y) {
-		dc.setColor(LT_BLUE, Graphics.COLOR_TRANSPARENT);
+		dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
 		dc.setPenWidth(1);
 
 		var info = Act.getInfo();
@@ -447,6 +472,7 @@ class Indicators extends WatchUi.Drawable {
 		
 		dc.drawText(147, y-20, Graphics.FONT_TINY, miles.format("%.2f") + " mi", Graphics.TEXT_JUSTIFY_RIGHT);
 		
+		dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
 		dc.fillEllipse(5, y-13, 2, 3);
 		dc.fillEllipse(5, y-6, 1, 2);
 		dc.drawText(12, y-20, Graphics.FONT_TINY, stepC.toString() + " / " + stepG.toString(), Graphics.TEXT_JUSTIFY_LEFT);

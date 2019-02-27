@@ -52,250 +52,280 @@
 <entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\TimeHelper.mc" id="21" lineNum="21" pc="268436197" symbol="getTimeString"/>
 <entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\TimeHelper.mc" id="21" lineNum="22" pc="268436204" symbol="getTimeString"/>
 <entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\TimeHelper.mc" id="21" lineNum="26" pc="268436225" symbol="getTimeString"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="23" lineNum="33" pc="268436273" symbol="initialize"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="23" lineNum="34" pc="268436277" symbol="initialize"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="23" lineNum="38" pc="268436298" symbol="initialize"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="41" pc="268436319" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="42" pc="268436323" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="44" pc="268436352" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="45" pc="268436369" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="46" pc="268436380" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="48" pc="268436412" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="49" pc="268436429" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="51" pc="268436469" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="52" pc="268436486" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="54" pc="268436518" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="55" pc="268436542" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="56" pc="268436566" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="58" pc="268436590" symbol="draw"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="61" pc="268436603" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="62" pc="268436607" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="63" pc="268436643" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="65" pc="268436663" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="69" pc="268436673" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="78" pc="268436776" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="86" pc="268436838" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="89" pc="268436876" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="90" pc="268436876" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="91" pc="268436890" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="92" pc="268436907" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="93" pc="268436921" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="95" pc="268436938" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="98" pc="268436952" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="100" pc="268436978" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="101" pc="268437006" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="107" pc="268437128" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="108" pc="268437142" symbol="drawBatteryMeter"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="112" pc="268437236" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="113" pc="268437240" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="114" pc="268437276" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="116" pc="268437293" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="117" pc="268437303" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="118" pc="268437316" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="119" pc="268437329" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="120" pc="268437342" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="121" pc="268437355" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="122" pc="268437368" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="123" pc="268437381" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="124" pc="268437401" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="125" pc="268437421" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="126" pc="268437441" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="127" pc="268437461" symbol="drawBluetoothIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="130" pc="268437482" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="131" pc="268437486" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="132" pc="268437522" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="134" pc="268437542" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="135" pc="268437546" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="136" pc="268437553" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="137" pc="268437560" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="138" pc="268437573" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="139" pc="268437589" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="140" pc="268437596" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="141" pc="268437615" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="142" pc="268437625" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="143" pc="268437647" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="144" pc="268437772" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="146" pc="268437786" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="147" pc="268437803" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="148" pc="268437835" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="150" pc="268437895" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="151" pc="268437931" symbol="drawNotificationIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="154" pc="268437983" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="155" pc="268437987" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="156" pc="268438023" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="158" pc="268438040" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="159" pc="268438056" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="160" pc="268438096" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="162" pc="268438120" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="163" pc="268438137" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="164" pc="268438192" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="166" pc="268438247" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="167" pc="268438303" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="169" pc="268438359" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="170" pc="268438391" symbol="drawAlarmIcon"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="173" pc="268438430" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="174" pc="268438434" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="175" pc="268438470" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="177" pc="268438487" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="179" pc="268438494" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="180" pc="268438538" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="181" pc="268438632" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="183" pc="268438680" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="184" pc="268438690" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="185" pc="268438714" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="186" pc="268438758" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="188" pc="268438785" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="189" pc="268438796" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="191" pc="268438806" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="192" pc="268438817" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="194" pc="268438830" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="197" pc="268438847" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="198" pc="268438879" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="199" pc="268438897" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="202" pc="268438907" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="203" pc="268438920" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="204" pc="268438982" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="205" pc="268439054" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="206" pc="268439067" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="207" pc="268439105" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="209" pc="268439143" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="210" pc="268439154" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="211" pc="268439171" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="212" pc="268439198" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="213" pc="268439225" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="216" pc="268439245" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="220" pc="268439783" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="226" pc="268440363" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="227" pc="268440381" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="228" pc="268440399" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="229" pc="268440432" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="231" pc="268440471" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="233" pc="268440503" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="234" pc="268440522" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="235" pc="268440541" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="243" pc="268440853" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="248" pc="268440893" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="252" pc="268441561" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="258" pc="268442313" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="259" pc="268442331" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="260" pc="268442349" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="261" pc="268442382" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="263" pc="268442421" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="265" pc="268442453" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="266" pc="268442472" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="267" pc="268442491" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="275" pc="268442803" symbol="drawTime"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="281" pc="268442844" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="282" pc="268442848" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="283" pc="268442880" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="307" pc="268442897" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="308" pc="268442933" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="309" pc="268442959" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="310" pc="268442997" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="311" pc="268443035" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="312" pc="268443073" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="313" pc="268443111" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="314" pc="268443143" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="315" pc="268443175" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="317" pc="268443207" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="318" pc="268443243" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="330" pc="268443724" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="332" pc="268443738" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="333" pc="268443745" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="334" pc="268443748" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="335" pc="268443751" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="336" pc="268443754" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="337" pc="268443757" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="338" pc="268443760" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="339" pc="268443763" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="340" pc="268443786" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="341" pc="268443791" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="343" pc="268443798" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="344" pc="268443822" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="345" pc="268443835" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="346" pc="268443842" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="348" pc="268443852" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="349" pc="268443870" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="354" pc="268443880" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="356" pc="268443950" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="357" pc="268444002" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="358" pc="268444035" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="359" pc="268444056" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="360" pc="268444069" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="361" pc="268444076" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="362" pc="268444086" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="365" pc="268444110" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="366" pc="268444123" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="367" pc="268444142" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="368" pc="268444155" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="369" pc="268444174" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="370" pc="268444231" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="372" pc="268444288" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="373" pc="268444305" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="374" pc="268444312" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="375" pc="268444330" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="376" pc="268444334" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="379" pc="268444341" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="380" pc="268444354" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="381" pc="268444375" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="382" pc="268444385" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="384" pc="268444406" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="385" pc="268444464" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="386" pc="268444478" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="387" pc="268444492" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="388" pc="268444509" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="389" pc="268444523" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="390" pc="268444540" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="391" pc="268444554" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="392" pc="268444571" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="393" pc="268444585" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="394" pc="268444602" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="395" pc="268444616" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="396" pc="268444633" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="397" pc="268444647" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="399" pc="268444664" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="400" pc="268444690" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="412" pc="268444821" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="414" pc="268444857" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="416" pc="268444911" symbol="drawHeartrate"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="420" pc="268444966" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="421" pc="268444970" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="422" pc="268445002" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="424" pc="268445019" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="425" pc="268445036" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="426" pc="268445046" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="427" pc="268445065" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="428" pc="268445075" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="429" pc="268445094" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="430" pc="268445104" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="431" pc="268445123" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="432" pc="268445133" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="433" pc="268445158" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="434" pc="268445168" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="435" pc="268445187" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="436" pc="268445197" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="438" pc="268445216" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="440" pc="268445282" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="441" pc="268445320" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="442" pc="268445358" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="443" pc="268445396" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="444" pc="268445434" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="445" pc="268445472" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="446" pc="268445510" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="448" pc="268445588" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="450" pc="268445659" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="451" pc="268445694" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="452" pc="268445729" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="454" pc="268445807" symbol="drawActivity"/>
-<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="455" pc="268445824" symbol="drawActivity"/>
-<entry filename="Rez" id="38" lineNum="30" pc="268445884" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="34" pc="268445896" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="35" pc="268445920" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="36" pc="268446091" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="37" pc="268446124" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="38" pc="268446176" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="39" pc="268446222" symbol="WatchFace"/>
-<entry filename="Rez" id="38" lineNum="42" pc="268446246" symbol="WatchFace"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="23" lineNum="32" pc="268436273" symbol="initialize"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="23" lineNum="33" pc="268436277" symbol="initialize"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="23" lineNum="37" pc="268436298" symbol="initialize"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="40" pc="268436319" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="41" pc="268436323" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="43" pc="268436352" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="44" pc="268436369" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="45" pc="268436380" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="47" pc="268436412" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="48" pc="268436429" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="50" pc="268436469" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="51" pc="268436486" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="53" pc="268436518" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="54" pc="268436542" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="55" pc="268436566" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="56" pc="268436590" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="24" lineNum="58" pc="268436614" symbol="draw"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="61" pc="268436627" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="62" pc="268436631" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="63" pc="268436667" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="65" pc="268436687" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="69" pc="268436697" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="78" pc="268436800" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="86" pc="268436862" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="89" pc="268436900" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="90" pc="268436900" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="91" pc="268436914" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="92" pc="268436931" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="93" pc="268436945" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="95" pc="268436962" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="98" pc="268436976" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="100" pc="268437002" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="101" pc="268437030" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="107" pc="268437152" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="25" lineNum="108" pc="268437166" symbol="drawBatteryMeter"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="112" pc="268437260" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="113" pc="268437264" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="114" pc="268437300" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="116" pc="268437317" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="117" pc="268437327" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="118" pc="268437340" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="119" pc="268437353" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="120" pc="268437366" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="121" pc="268437379" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="122" pc="268437392" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="123" pc="268437405" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="124" pc="268437425" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="125" pc="268437445" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="126" pc="268437465" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="26" lineNum="127" pc="268437485" symbol="drawBluetoothIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="130" pc="268437506" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="131" pc="268437510" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="132" pc="268437546" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="134" pc="268437566" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="135" pc="268437570" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="136" pc="268437577" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="137" pc="268437584" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="138" pc="268437597" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="139" pc="268437613" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="140" pc="268437620" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="141" pc="268437639" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="142" pc="268437649" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="143" pc="268437671" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="144" pc="268437796" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="146" pc="268437810" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="147" pc="268437827" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="148" pc="268437859" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="150" pc="268437919" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="27" lineNum="151" pc="268437955" symbol="drawNotificationIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="154" pc="268438007" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="155" pc="268438011" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="156" pc="268438047" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="158" pc="268438064" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="159" pc="268438080" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="160" pc="268438120" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="162" pc="268438144" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="163" pc="268438161" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="164" pc="268438216" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="166" pc="268438271" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="167" pc="268438327" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="169" pc="268438383" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="28" lineNum="170" pc="268438415" symbol="drawAlarmIcon"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="173" pc="268438454" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="174" pc="268438458" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="175" pc="268438494" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="177" pc="268438511" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="178" pc="268438555" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="179" pc="268438649" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="181" pc="268438697" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="182" pc="268438704" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="183" pc="268438714" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="184" pc="268438738" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="185" pc="268438782" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="187" pc="268438809" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="188" pc="268438820" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="190" pc="268438830" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="191" pc="268438841" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="193" pc="268438854" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="196" pc="268438871" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="197" pc="268438903" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="198" pc="268438921" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="201" pc="268438931" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="202" pc="268438944" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="203" pc="268439006" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="204" pc="268439078" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="205" pc="268439091" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="206" pc="268439129" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="208" pc="268439167" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="209" pc="268439203" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="210" pc="268439214" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="211" pc="268439231" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="212" pc="268439258" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="213" pc="268439285" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="216" pc="268439305" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="220" pc="268439843" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="226" pc="268440423" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="227" pc="268440441" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="228" pc="268440459" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="229" pc="268440492" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="231" pc="268440531" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="233" pc="268440563" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="234" pc="268440582" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="235" pc="268440601" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="243" pc="268440913" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="248" pc="268440953" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="252" pc="268441621" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="258" pc="268442373" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="259" pc="268442391" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="260" pc="268442409" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="261" pc="268442442" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="263" pc="268442481" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="265" pc="268442513" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="266" pc="268442532" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="267" pc="268442551" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="29" lineNum="275" pc="268442863" symbol="drawTime"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="281" pc="268442904" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="282" pc="268442908" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="283" pc="268442944" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="285" pc="268442961" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="286" pc="268442978" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="287" pc="268442985" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="288" pc="268443015" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="289" pc="268443114" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="290" pc="268443138" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="291" pc="268443154" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="292" pc="268443170" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="293" pc="268443181" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="298" pc="268443207" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="299" pc="268443241" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="300" pc="268443257" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="301" pc="268443292" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="303" pc="268443302" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="313" pc="268443790" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="315" pc="268443804" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="316" pc="268443840" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="317" pc="268443885" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="318" pc="268443930" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="319" pc="268443975" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="320" pc="268444020" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="321" pc="268444065" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="322" pc="268444110" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="324" pc="268444155" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="30" lineNum="325" pc="268444191" symbol="drawStepsGraph"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="329" pc="268444255" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="330" pc="268444259" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="331" pc="268444295" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="333" pc="268444312" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="334" pc="268444338" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="335" pc="268444376" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="336" pc="268444414" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="337" pc="268444452" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="338" pc="268444490" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="339" pc="268444522" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="340" pc="268444554" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="342" pc="268444586" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="343" pc="268444622" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="355" pc="268445103" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="357" pc="268445117" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="358" pc="268445124" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="359" pc="268445127" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="360" pc="268445130" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="361" pc="268445133" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="362" pc="268445136" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="363" pc="268445139" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="364" pc="268445142" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="365" pc="268445165" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="366" pc="268445170" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="368" pc="268445177" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="369" pc="268445201" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="370" pc="268445214" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="371" pc="268445221" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="373" pc="268445231" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="374" pc="268445249" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="379" pc="268445259" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="381" pc="268445329" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="382" pc="268445381" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="383" pc="268445414" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="384" pc="268445435" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="385" pc="268445448" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="386" pc="268445455" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="387" pc="268445465" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="390" pc="268445489" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="391" pc="268445502" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="392" pc="268445525" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="393" pc="268445538" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="394" pc="268445561" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="395" pc="268445618" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="397" pc="268445675" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="398" pc="268445692" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="399" pc="268445699" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="400" pc="268445717" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="401" pc="268445721" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="404" pc="268445728" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="405" pc="268445741" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="406" pc="268445762" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="407" pc="268445772" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="409" pc="268445793" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="410" pc="268445851" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="411" pc="268445865" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="412" pc="268445879" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="413" pc="268445896" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="414" pc="268445910" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="415" pc="268445927" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="416" pc="268445941" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="417" pc="268445958" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="418" pc="268445972" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="419" pc="268445989" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="420" pc="268446003" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="421" pc="268446020" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="422" pc="268446034" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="424" pc="268446051" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="425" pc="268446077" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="437" pc="268446208" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="439" pc="268446244" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="31" lineNum="441" pc="268446298" symbol="drawHeartrate"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="445" pc="268446353" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="446" pc="268446357" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="447" pc="268446393" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="449" pc="268446410" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="450" pc="268446427" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="451" pc="268446437" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="452" pc="268446456" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="453" pc="268446466" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="454" pc="268446485" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="455" pc="268446495" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="456" pc="268446514" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="457" pc="268446524" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="458" pc="268446549" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="459" pc="268446559" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="460" pc="268446578" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="461" pc="268446588" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="463" pc="268446607" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="465" pc="268446673" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="466" pc="268446711" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="467" pc="268446749" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="468" pc="268446787" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="469" pc="268446825" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="470" pc="268446863" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="471" pc="268446901" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="473" pc="268446979" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="475" pc="268447050" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="476" pc="268447086" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="477" pc="268447121" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="478" pc="268447156" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="480" pc="268447234" symbol="drawActivity"/>
+<entry filename="C:\\Users\\cutzer243\\eclipse-workspace\\Chronon\\source\\Indicators.mc" id="32" lineNum="481" pc="268447251" symbol="drawActivity"/>
+<entry filename="Rez" id="39" lineNum="29" pc="268447311" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="33" pc="268447323" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="34" pc="268447347" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="35" pc="268447518" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="36" pc="268447551" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="37" pc="268447603" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="38" pc="268447649" symbol="WatchFace"/>
+<entry filename="Rez" id="39" lineNum="41" pc="268447673" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry field="true" id="20" symbol="HR_100_MAX"/>
@@ -310,34 +340,32 @@
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8388645" module="true" symbol="Time"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry id="8388643" module="true" symbol="Sensor"/>
-<entry field="true" id="39" symbol="ColorWhite"/>
+<entry field="true" id="38" symbol="ColorWhite"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389068" method="true" symbol="draw"/>
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="24" symbol="HR_60_LIGHT"/>
-<entry field="true" id="38" symbol="ColorBlack"/>
+<entry field="true" id="37" symbol="ColorBlack"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8388924" module="true" symbol="Gregorian"/>
 <entry field="true" id="32" symbol="ColorRed"/>
 <entry field="true" id="33" symbol="ForegroundColorTitle"/>
-<entry id="42" method="true" symbol="drawBluetoothIcon"/>
+<entry id="41" method="true" symbol="drawBluetoothIcon"/>
 <entry id="11" object="true" symbol="TimeHelper"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="40" symbol="AppName"/>
+<entry field="true" id="39" symbol="AppName"/>
 <entry id="46" method="true" symbol="drawHeartrate"/>
 <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
 <entry id="8390146" module="true" object="true" symbol="Background"/>
 <entry field="true" id="16" symbol="BATTERY_LEVEL_LOW"/>
 <entry id="8388641" module="true" symbol="Math"/>
 <entry field="true" id="29" symbol="LauncherIcon"/>
-<entry id="45" method="true" symbol="drawTime"/>
+<entry id="44" method="true" symbol="drawTime"/>
 <entry id="8389683" method="true" symbol="onSettingsChanged"/>
-<entry field="true" id="36" symbol="Degree"/>
-<entry id="44" method="true" symbol="drawAlarmIcon"/>
+<entry id="43" method="true" symbol="drawAlarmIcon"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry field="true" id="22" symbol="HR_80_HARD"/>
 <entry id="8389281" method="true" symbol="onStop"/>
@@ -363,16 +391,17 @@
 <entry id="9" object="true" symbol="ChrononView"/>
 <entry field="true" id="23" symbol="HR_70_MODERATE"/>
 <entry id="28" module="true" symbol="Layouts"/>
+<entry id="45" method="true" symbol="drawStepsGraph"/>
 <entry field="true" id="14" symbol="BATTERY_MARGIN"/>
 <entry id="8389125" method="true" symbol="onHide"/>
-<entry field="true" id="37" symbol="MilitaryFormatTitle"/>
+<entry field="true" id="36" symbol="MilitaryFormatTitle"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry field="true" id="13" symbol="BATTERY_HEAD_HEIGHT"/>
 <entry id="47" method="true" symbol="drawActivity"/>
 <entry field="true" id="8389063" symbol="identifier"/>
-<entry id="41" method="true" symbol="drawBatteryMeter"/>
+<entry id="40" method="true" symbol="drawBatteryMeter"/>
 <entry id="27" module="true" symbol="Menus"/>
-<entry id="43" method="true" symbol="drawNotificationIcon"/>
+<entry id="42" method="true" symbol="drawNotificationIcon"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
@@ -394,105 +423,115 @@
 <entry endPc="268436269" name="clockTime" stackId="2" startPc="268436034"/>
 <entry endPc="268436269" name="timeFormat" stackId="1" startPc="268436034"/>
 <entry endPc="268436318" name="dictionary" stackId="1" startPc="268436277"/>
-<entry endPc="268436602" name="settings" stackId="2" startPc="268436323"/>
-<entry endPc="268436603" name="dc" stackId="1" startPc="268436319"/>
-<entry endPc="268437235" name="batteryLevel" stackId="6" startPc="268436607"/>
-<entry endPc="268437235" name="fillWidth" stackId="8" startPc="268436607"/>
-<entry endPc="268437235" name="width" stackId="5" startPc="268436607"/>
-<entry endPc="268437235" name="fillColour" stackId="7" startPc="268436607"/>
-<entry endPc="268437236" name="height" stackId="4" startPc="268436603"/>
-<entry endPc="268437236" name="x" stackId="2" startPc="268436603"/>
-<entry endPc="268437236" name="dc" stackId="1" startPc="268436603"/>
-<entry endPc="268437236" name="y" stackId="3" startPc="268436603"/>
-<entry endPc="268437481" name="y4" stackId="11" startPc="268437240"/>
-<entry endPc="268437481" name="x2" stackId="8" startPc="268437240"/>
-<entry endPc="268437481" name="y3" stackId="10" startPc="268437240"/>
-<entry endPc="268437481" name="x1" stackId="6" startPc="268437240"/>
-<entry endPc="268437481" name="y2" stackId="9" startPc="268437240"/>
-<entry endPc="268437481" name="y1" stackId="7" startPc="268437240"/>
-<entry endPc="268437481" name="width" stackId="5" startPc="268437240"/>
-<entry endPc="268437482" name="height" stackId="4" startPc="268437236"/>
-<entry endPc="268437482" name="x" stackId="2" startPc="268437236"/>
-<entry endPc="268437482" name="dc" stackId="1" startPc="268437236"/>
-<entry endPc="268437482" name="y" stackId="3" startPc="268437236"/>
-<entry endPc="268437982" name="x2" stackId="12" startPc="268437486"/>
-<entry endPc="268437982" name="width" stackId="6" startPc="268437486"/>
-<entry endPc="268437982" name="x1" stackId="9" startPc="268437486"/>
-<entry endPc="268437982" name="triangleH" stackId="8" startPc="268437486"/>
-<entry endPc="268437982" name="txt" stackId="15" startPc="268437486"/>
-<entry endPc="268437982" name="radius" stackId="7" startPc="268437486"/>
-<entry endPc="268437982" name="h1" stackId="11" startPc="268437486"/>
-<entry endPc="268437982" name="y2" stackId="13" startPc="268437486"/>
-<entry endPc="268437982" name="y1" stackId="10" startPc="268437486"/>
-<entry endPc="268437982" name="pts" stackId="14" startPc="268437486"/>
-<entry endPc="268437983" name="height" stackId="4" startPc="268437482"/>
-<entry endPc="268437983" name="x" stackId="2" startPc="268437482"/>
-<entry endPc="268437983" name="dc" stackId="1" startPc="268437482"/>
-<entry endPc="268437983" name="count" stackId="5" startPc="268437482"/>
-<entry endPc="268437983" name="y" stackId="3" startPc="268437482"/>
-<entry endPc="268438429" name="radius" stackId="5" startPc="268437987"/>
-<entry endPc="268438429" name="XandYto45" stackId="6" startPc="268437987"/>
-<entry endPc="268438430" name="height" stackId="4" startPc="268437983"/>
-<entry endPc="268438430" name="x" stackId="2" startPc="268437983"/>
-<entry endPc="268438430" name="dc" stackId="1" startPc="268437983"/>
-<entry endPc="268438430" name="y" stackId="3" startPc="268437983"/>
-<entry endPc="268440867" name="k" stackId="17" startPc="268440399"/>
-<entry endPc="268440867" name="j" stackId="16" startPc="268440399"/>
-<entry endPc="268440867" name="pts" stackId="18" startPc="268440399"/>
-<entry endPc="268440880" name="n" stackId="15" startPc="268440399"/>
-<entry endPc="268440893" name="m" stackId="14" startPc="268440381"/>
-<entry endPc="268442817" name="k" stackId="24" startPc="268442349"/>
-<entry endPc="268442817" name="j" stackId="23" startPc="268442349"/>
-<entry endPc="268442817" name="pts" stackId="25" startPc="268442349"/>
-<entry endPc="268442830" name="n" stackId="22" startPc="268442349"/>
-<entry endPc="268442843" name="m" stackId="21" startPc="268442331"/>
-<entry endPc="268442843" name="mins" stackId="8" startPc="268438434"/>
-<entry endPc="268442843" name="time" stackId="9" startPc="268438434"/>
-<entry endPc="268442843" name="date" stackId="6" startPc="268438434"/>
-<entry endPc="268442843" name="hh" stackId="10" startPc="268438434"/>
-<entry endPc="268442843" name="verticalBars" stackId="20" startPc="268438434"/>
-<entry endPc="268442843" name="mm" stackId="11" startPc="268438434"/>
-<entry endPc="268442843" name="fillHorizontal" stackId="12" startPc="268438434"/>
-<entry endPc="268442843" name="horizontalBars" stackId="13" startPc="268438434"/>
-<entry endPc="268442843" name="colon" stackId="4" startPc="268438434"/>
-<entry endPc="268442843" name="today" stackId="5" startPc="268438434"/>
-<entry endPc="268442843" name="hours" stackId="7" startPc="268438434"/>
-<entry endPc="268442843" name="fillVertical" stackId="19" startPc="268438434"/>
-<entry endPc="268442844" name="x" stackId="2" startPc="268438430"/>
-<entry endPc="268442844" name="dc" stackId="1" startPc="268438430"/>
-<entry endPc="268442844" name="y" stackId="3" startPc="268438430"/>
-<entry endPc="268444812" name="hrColor" stackId="17" startPc="268444464"/>
-<entry endPc="268444965" name="hrText" stackId="5" startPc="268442848"/>
-<entry endPc="268444965" name="hrT" stackId="10" startPc="268442848"/>
-<entry endPc="268444965" name="nowT" stackId="13" startPc="268442848"/>
-<entry endPc="268444965" name="minHR" stackId="15" startPc="268442848"/>
-<entry endPc="268444965" name="hrPrev" stackId="9" startPc="268442848"/>
-<entry endPc="268444965" name="maxHR" stackId="16" startPc="268442848"/>
-<entry endPc="268444965" name="hrTPrev" stackId="11" startPc="268442848"/>
-<entry endPc="268444965" name="hrI" stackId="7" startPc="268442848"/>
-<entry endPc="268444965" name="heartRateHistory" stackId="6" startPc="268442848"/>
-<entry endPc="268444965" name="hr" stackId="8" startPc="268442848"/>
-<entry endPc="268444965" name="ptsHeart" stackId="4" startPc="268442848"/>
-<entry endPc="268444965" name="currentHeartRate" stackId="12" startPc="268442848"/>
-<entry endPc="268444965" name="hrDuration" stackId="14" startPc="268442848"/>
-<entry endPc="268444966" name="x" stackId="2" startPc="268442844"/>
-<entry endPc="268444966" name="dc" stackId="1" startPc="268442844"/>
-<entry endPc="268444966" name="y" stackId="3" startPc="268442844"/>
-<entry endPc="268445883" name="stepG" stackId="10" startPc="268444970"/>
-<entry endPc="268445883" name="miles" stackId="8" startPc="268444970"/>
-<entry endPc="268445883" name="stepC" stackId="9" startPc="268444970"/>
-<entry endPc="268445883" name="stairG" stackId="7" startPc="268444970"/>
-<entry endPc="268445883" name="stairs" stackId="6" startPc="268444970"/>
-<entry endPc="268445883" name="info" stackId="4" startPc="268444970"/>
-<entry endPc="268445883" name="cals" stackId="5" startPc="268444970"/>
-<entry endPc="268445884" name="x" stackId="2" startPc="268444966"/>
-<entry endPc="268445884" name="dc" stackId="1" startPc="268444966"/>
-<entry endPc="268445884" name="y" stackId="3" startPc="268444966"/>
-<entry endPc="268446283" name="rez_cmp_local_custom_drawable_74345851760176734131" stackId="5" startPc="268445896"/>
-<entry endPc="268446283" name="rez_cmp_local_bitmap_TimeLabel" stackId="3" startPc="268445896"/>
-<entry endPc="268446283" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="4" startPc="268445896"/>
-<entry endPc="268446283" name="rez_cmp_local_custom_drawable_16153205618858596649" stackId="2" startPc="268445896"/>
-<entry endPc="268446284" name="dc" stackId="1" startPc="268445884"/>
+<entry endPc="268436626" name="settings" stackId="2" startPc="268436323"/>
+<entry endPc="268436627" name="dc" stackId="1" startPc="268436319"/>
+<entry endPc="268437259" name="batteryLevel" stackId="6" startPc="268436631"/>
+<entry endPc="268437259" name="fillWidth" stackId="8" startPc="268436631"/>
+<entry endPc="268437259" name="width" stackId="5" startPc="268436631"/>
+<entry endPc="268437259" name="fillColour" stackId="7" startPc="268436631"/>
+<entry endPc="268437260" name="height" stackId="4" startPc="268436627"/>
+<entry endPc="268437260" name="x" stackId="2" startPc="268436627"/>
+<entry endPc="268437260" name="dc" stackId="1" startPc="268436627"/>
+<entry endPc="268437260" name="y" stackId="3" startPc="268436627"/>
+<entry endPc="268437505" name="y4" stackId="11" startPc="268437264"/>
+<entry endPc="268437505" name="x2" stackId="8" startPc="268437264"/>
+<entry endPc="268437505" name="y3" stackId="10" startPc="268437264"/>
+<entry endPc="268437505" name="x1" stackId="6" startPc="268437264"/>
+<entry endPc="268437505" name="y2" stackId="9" startPc="268437264"/>
+<entry endPc="268437505" name="y1" stackId="7" startPc="268437264"/>
+<entry endPc="268437505" name="width" stackId="5" startPc="268437264"/>
+<entry endPc="268437506" name="height" stackId="4" startPc="268437260"/>
+<entry endPc="268437506" name="x" stackId="2" startPc="268437260"/>
+<entry endPc="268437506" name="dc" stackId="1" startPc="268437260"/>
+<entry endPc="268437506" name="y" stackId="3" startPc="268437260"/>
+<entry endPc="268438006" name="x2" stackId="12" startPc="268437510"/>
+<entry endPc="268438006" name="width" stackId="6" startPc="268437510"/>
+<entry endPc="268438006" name="x1" stackId="9" startPc="268437510"/>
+<entry endPc="268438006" name="triangleH" stackId="8" startPc="268437510"/>
+<entry endPc="268438006" name="txt" stackId="15" startPc="268437510"/>
+<entry endPc="268438006" name="radius" stackId="7" startPc="268437510"/>
+<entry endPc="268438006" name="h1" stackId="11" startPc="268437510"/>
+<entry endPc="268438006" name="y2" stackId="13" startPc="268437510"/>
+<entry endPc="268438006" name="y1" stackId="10" startPc="268437510"/>
+<entry endPc="268438006" name="pts" stackId="14" startPc="268437510"/>
+<entry endPc="268438007" name="height" stackId="4" startPc="268437506"/>
+<entry endPc="268438007" name="x" stackId="2" startPc="268437506"/>
+<entry endPc="268438007" name="dc" stackId="1" startPc="268437506"/>
+<entry endPc="268438007" name="count" stackId="5" startPc="268437506"/>
+<entry endPc="268438007" name="y" stackId="3" startPc="268437506"/>
+<entry endPc="268438453" name="radius" stackId="5" startPc="268438011"/>
+<entry endPc="268438453" name="XandYto45" stackId="6" startPc="268438011"/>
+<entry endPc="268438454" name="height" stackId="4" startPc="268438007"/>
+<entry endPc="268438454" name="x" stackId="2" startPc="268438007"/>
+<entry endPc="268438454" name="dc" stackId="1" startPc="268438007"/>
+<entry endPc="268438454" name="y" stackId="3" startPc="268438007"/>
+<entry endPc="268440927" name="k" stackId="17" startPc="268440459"/>
+<entry endPc="268440927" name="j" stackId="16" startPc="268440459"/>
+<entry endPc="268440927" name="pts" stackId="18" startPc="268440459"/>
+<entry endPc="268440940" name="n" stackId="15" startPc="268440459"/>
+<entry endPc="268440953" name="m" stackId="14" startPc="268440441"/>
+<entry endPc="268442877" name="k" stackId="24" startPc="268442409"/>
+<entry endPc="268442877" name="j" stackId="23" startPc="268442409"/>
+<entry endPc="268442877" name="pts" stackId="25" startPc="268442409"/>
+<entry endPc="268442890" name="n" stackId="22" startPc="268442409"/>
+<entry endPc="268442903" name="m" stackId="21" startPc="268442391"/>
+<entry endPc="268442903" name="mins" stackId="8" startPc="268438458"/>
+<entry endPc="268442903" name="time" stackId="9" startPc="268438458"/>
+<entry endPc="268442903" name="date" stackId="5" startPc="268438458"/>
+<entry endPc="268442903" name="hh" stackId="10" startPc="268438458"/>
+<entry endPc="268442903" name="verticalBars" stackId="20" startPc="268438458"/>
+<entry endPc="268442903" name="mm" stackId="11" startPc="268438458"/>
+<entry endPc="268442903" name="fillHorizontal" stackId="12" startPc="268438458"/>
+<entry endPc="268442903" name="horizontalBars" stackId="13" startPc="268438458"/>
+<entry endPc="268442903" name="colon" stackId="6" startPc="268438458"/>
+<entry endPc="268442903" name="today" stackId="4" startPc="268438458"/>
+<entry endPc="268442903" name="hours" stackId="7" startPc="268438458"/>
+<entry endPc="268442903" name="fillVertical" stackId="19" startPc="268438458"/>
+<entry endPc="268442904" name="x" stackId="2" startPc="268438454"/>
+<entry endPc="268442904" name="dc" stackId="1" startPc="268438454"/>
+<entry endPc="268442904" name="y" stackId="3" startPc="268438454"/>
+<entry endPc="268443207" name="i" stackId="7" startPc="268443138"/>
+<entry endPc="268444251" name="stepH" stackId="6" startPc="268443015"/>
+<entry endPc="268444251" name="graphScale" stackId="9" startPc="268443015"/>
+<entry endPc="268444251" name="mod2" stackId="8" startPc="268443015"/>
+<entry endPc="268444251" name="pts" stackId="10" startPc="268443015"/>
+<entry endPc="268444254" name="actH" stackId="4" startPc="268442908"/>
+<entry endPc="268444254" name="stepHmax" stackId="5" startPc="268442908"/>
+<entry endPc="268444255" name="x" stackId="2" startPc="268442904"/>
+<entry endPc="268444255" name="dc" stackId="1" startPc="268442904"/>
+<entry endPc="268444255" name="y" stackId="3" startPc="268442904"/>
+<entry endPc="268446199" name="hrColor" stackId="17" startPc="268445851"/>
+<entry endPc="268446352" name="hrText" stackId="5" startPc="268444259"/>
+<entry endPc="268446352" name="hrT" stackId="10" startPc="268444259"/>
+<entry endPc="268446352" name="nowT" stackId="13" startPc="268444259"/>
+<entry endPc="268446352" name="minHR" stackId="15" startPc="268444259"/>
+<entry endPc="268446352" name="hrPrev" stackId="9" startPc="268444259"/>
+<entry endPc="268446352" name="maxHR" stackId="16" startPc="268444259"/>
+<entry endPc="268446352" name="hrTPrev" stackId="11" startPc="268444259"/>
+<entry endPc="268446352" name="hrI" stackId="7" startPc="268444259"/>
+<entry endPc="268446352" name="heartRateHistory" stackId="6" startPc="268444259"/>
+<entry endPc="268446352" name="hr" stackId="8" startPc="268444259"/>
+<entry endPc="268446352" name="ptsHeart" stackId="4" startPc="268444259"/>
+<entry endPc="268446352" name="currentHeartRate" stackId="12" startPc="268444259"/>
+<entry endPc="268446352" name="hrDuration" stackId="14" startPc="268444259"/>
+<entry endPc="268446353" name="x" stackId="2" startPc="268444255"/>
+<entry endPc="268446353" name="dc" stackId="1" startPc="268444255"/>
+<entry endPc="268446353" name="y" stackId="3" startPc="268444255"/>
+<entry endPc="268447310" name="stepG" stackId="10" startPc="268446357"/>
+<entry endPc="268447310" name="miles" stackId="8" startPc="268446357"/>
+<entry endPc="268447310" name="stepC" stackId="9" startPc="268446357"/>
+<entry endPc="268447310" name="stairG" stackId="7" startPc="268446357"/>
+<entry endPc="268447310" name="stairs" stackId="6" startPc="268446357"/>
+<entry endPc="268447310" name="info" stackId="4" startPc="268446357"/>
+<entry endPc="268447310" name="cals" stackId="5" startPc="268446357"/>
+<entry endPc="268447311" name="x" stackId="2" startPc="268446353"/>
+<entry endPc="268447311" name="dc" stackId="1" startPc="268446353"/>
+<entry endPc="268447311" name="y" stackId="3" startPc="268446353"/>
+<entry endPc="268447710" name="rez_cmp_local_bitmap_TimeLabel" stackId="3" startPc="268447323"/>
+<entry endPc="268447710" name="rez_cmp_local_bitmap_TimeLabel_fontHeight" stackId="4" startPc="268447323"/>
+<entry endPc="268447710" name="rez_cmp_local_custom_drawable_16546317311227489786" stackId="2" startPc="268447323"/>
+<entry endPc="268447710" name="rez_cmp_local_custom_drawable_16922523451832419314" stackId="5" startPc="268447323"/>
+<entry endPc="268447711" name="dc" stackId="1" startPc="268447311"/>
 </localVars>
 <annotations/>
 <functions>
@@ -592,6 +631,12 @@
 <param id="y"/>
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" name="drawStepsGraph" parent="Indicators">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="drawHeartrate" parent="Indicators">
 <param id="dc"/>
 <param id="x"/>
@@ -620,7 +665,7 @@
 <dataEntry offset="664" parentId="Rez" symbolId="JsonData" type="module"/>
 <dataEntry offset="695" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry offset="734" parentId="Rez" symbolId="Strings" type="module"/>
-<dataEntry offset="853" parentId="globals" symbolId="Indicators" type="class"/>
+<dataEntry offset="845" parentId="globals" symbolId="Indicators" type="class"/>
 <dataEntry offset="964" parentId="globals" symbolId="TimeHelper" type="class"/>
 <dataEntry offset="1019" parentId="globals" symbolId="ChrononApp" type="class"/>
 </dataEntryOffsetMappings>
