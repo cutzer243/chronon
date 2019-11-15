@@ -52,9 +52,9 @@ class Indicators extends WatchUi.Drawable {
 		if (settings.alarmCount > 0) {
 			drawAlarmIcon(dc, 117, 8, 12);
 		}
-		drawTime(dc, 120, 52);
-		drawStepsGraph(dc, 120, 165);
-		//drawHeartrate(dc, 120, 165);
+		drawTime(dc, 120, 94);
+		drawStepsGraph(dc, 120, 190);
+		//drawHeartrate(dc, 120, 190);
 		drawActivity(dc, 120, 230);
 		
 		dc.clear();
@@ -182,9 +182,9 @@ class Indicators extends WatchUi.Drawable {
 		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var date = Lang.format("$1$, $2$ $3$, $4$", [today.day_of_week, today.month, today.day, today.year]);
-		dc.drawText(x, y+33, Graphics.FONT_XTINY, date, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x, y-72, Graphics.FONT_XTINY, date, Graphics.TEXT_JUSTIFY_CENTER);
 		
-		var colon = 4;
+		var colon = 8;
         var hours = today.hour;
         var mins = today.min.format("%02d");
         var time = [null,null,null,null];
@@ -214,8 +214,8 @@ class Indicators extends WatchUi.Drawable {
 		dc.setColor(Graphics.COLOR_WHITE , Graphics.COLOR_TRANSPARENT);
         if (colon != 1) {
 			dc.setPenWidth(1);
-        	dc.fillCircle(x, y+15, 3);
-        	dc.fillCircle(x, y-15, 3);
+        	dc.fillCircle(x, y+20, 4);
+        	dc.fillCircle(x, y-20, 4);
 			dc.setPenWidth(2);
         }
         
@@ -224,10 +224,10 @@ class Indicators extends WatchUi.Drawable {
 			[1,1,1],[1,1,1],[1,0,0],[1,1,1],[1,1,1]];
 		
 		var horizontalBars = [
-			[[-53-colon, -30], [-53-colon, 0], [-53-colon, 30]],
-			[[-17-colon, -30], [-17-colon, 0], [-17-colon, 30]],
-			[[17+colon, -30], [17+colon, 0], [17+colon, 30]],
-			[[53+colon, -30], [53+colon, 0], [53+colon, 30]]];
+			[[-75-colon, -40], [-75-colon, 0], [-75-colon, 40]],
+			[[-23-colon, -40], [-23-colon, 0], [-23-colon, 40]],
+			[[23+colon, -40], [23+colon, 0], [23+colon, 40]],
+			[[75+colon, -40], [75+colon, 0], [75+colon, 40]]];
 			
 		for( var m=0; m<4; m++ ) {
 			for( var n=0; n<3; n++ ) {
@@ -239,13 +239,13 @@ class Indicators extends WatchUi.Drawable {
 					var j = x+horizontalBars[m][n][0];
 					var k = y+horizontalBars[m][n][1];
 					var pts = [ 
-						[j-13,k], 
-						[j-10,k-3], 
-						[j+10,k-3], 
-						[j+13,k], 
-						[j+10,k+3], 
-						[j-10,k+3], 
-						[j-13,k] ];
+						[j-18,k], 
+						[j-13,k-5], 
+						[j+13,k-5], 
+						[j+18,k], 
+						[j+13,k+5], 
+						[j-13,k+5], 
+						[j-18,k] ];
 					dc.fillPolygon(pts);
 			}
 		}
@@ -256,10 +256,10 @@ class Indicators extends WatchUi.Drawable {
 			[1,0,0,1],[1,1,0,1],[0,0,1,1],[1,1,1,1],[1,0,1,1]];
 			
 		var verticalBars = [
-			[[-66-colon, -15], [-66-colon, 15], [-40-colon, -15], [-40-colon, 15]],
-			[[-30-colon, -15], [-30-colon, 15], [-4-colon, -15], [-4-colon, 15]],
-			[[4+colon, -15], [4+colon, 15], [30+colon, -15], [30+colon, 15]],
-			[[40+colon, -15], [40+colon, 15], [66+colon, -15], [66+colon, 15]]];
+			[[-94-colon, -20], [-94-colon, 20], [-56-colon, -20], [-56-colon, 20]],
+			[[-42-colon, -20], [-42-colon, 20], [-4-colon, -20], [-4-colon, 20]],
+			[[4+colon, -20], [4+colon, 20], [42+colon, -20], [42+colon, 20]],
+			[[56+colon, -20], [56+colon, 20], [94+colon, -20], [94+colon, 20]]];
 			
 		for( var m=0; m<4; m++ ) {
 			for( var n=0; n<4; n++ ) {
@@ -271,13 +271,13 @@ class Indicators extends WatchUi.Drawable {
 					var j = x+verticalBars[m][n][0];
 					var k = y+verticalBars[m][n][1];
 					var pts = [ 
-						[j,k-13], 
-						[j-3,k-10], 
-						[j-3,k+10], 
-						[j,k+13], 
-						[j+3,k+10], 
-						[j+3,k-10], 
-						[j,k-13] ];
+						[j,k-18], 
+						[j-5,k-13], 
+						[j-5,k+13], 
+						[j,k+18], 
+						[j+5,k+13], 
+						[j+5,k-13], 
+						[j,k-18] ];
 					dc.fillPolygon(pts);
 				
 			}
@@ -292,7 +292,7 @@ class Indicators extends WatchUi.Drawable {
 		var stepHmax = 0;
 		if (actH != null && actH.size() > 0) {
 			var stepH = [0,0,0,0,0,0,0];
-			for (var i=0; i < actH.size(); i++) {
+			for (var i=0; i < actH.size() && i < stepH.size(); i++) {
 				if (actH[i].steps != null) {
 					stepH[i] = actH[i].steps;
 					if (stepH[i] > stepHmax) {
@@ -307,28 +307,28 @@ class Indicators extends WatchUi.Drawable {
 			var graphScale = (40.0/stepHmax);
 			
 			var pts = [ 
-				[0,y],
-				[0,y-((stepH[6]*graphScale).toNumber())],
-				[24,y-((stepH[5]*graphScale).toNumber())], 
-				[48,y-((stepH[4]*graphScale).toNumber())], 
-				[73,y-((stepH[3]*graphScale).toNumber())], 
-				[98,y-((stepH[2]*graphScale).toNumber())], 
-				[122,y-((stepH[1]*graphScale).toNumber())], 
-				[147,y-((stepH[0]*graphScale).toNumber())], 
-				[147,y]  ];
+				[36,y],
+				[36,y-((stepH[6]*graphScale).toNumber())],
+				[64,y-((stepH[5]*graphScale).toNumber())], 
+				[92,y-((stepH[4]*graphScale).toNumber())], 
+				[120,y-((stepH[3]*graphScale).toNumber())], 
+				[148,y-((stepH[2]*graphScale).toNumber())], 
+				[176,y-((stepH[1]*graphScale).toNumber())], 
+				[204,y-((stepH[0]*graphScale).toNumber())], 
+				[204,y]  ];
 			dc.fillPolygon(pts);
 			
 			dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-			dc.drawCircle(0,y-((stepH[6]*graphScale).toNumber()), 3);
-			dc.drawCircle(24,y-((stepH[5]*graphScale).toNumber()), 3); 
-			dc.drawCircle(48,y-((stepH[4]*graphScale).toNumber()), 3); 
-			dc.drawCircle(73,y-((stepH[3]*graphScale).toNumber()), 3); 
-			dc.drawCircle(98,y-((stepH[2]*graphScale).toNumber()), 3); 
-			dc.drawCircle(122,y-((stepH[1]*graphScale).toNumber()), 3); 
-			dc.drawCircle(147,y-((stepH[0]*graphScale).toNumber()), 3); 
+			dc.drawCircle(36,y-((stepH[6]*graphScale).toNumber()), 3);
+			dc.drawCircle(64,y-((stepH[5]*graphScale).toNumber()), 3); 
+			dc.drawCircle(92,y-((stepH[4]*graphScale).toNumber()), 3); 
+			dc.drawCircle(120,y-((stepH[3]*graphScale).toNumber()), 3); 
+			dc.drawCircle(148,y-((stepH[2]*graphScale).toNumber()), 3); 
+			dc.drawCircle(176,y-((stepH[1]*graphScale).toNumber()), 3); 
+			dc.drawCircle(204,y-((stepH[0]*graphScale).toNumber()), 3); 
 	
 			dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-			dc.drawText(147, y-50, Graphics.FONT_XTINY, (stepHmax).toString(), Graphics.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(204, y-50, Graphics.FONT_XTINY, (stepHmax).toString(), Graphics.TEXT_JUSTIFY_RIGHT);
 		}
 	}
 	
@@ -468,6 +468,7 @@ class Indicators extends WatchUi.Drawable {
 		
 		dc.drawText(x+43, y-15, Graphics.FONT_XTINY, cals.toString() + "C", Graphics.TEXT_JUSTIFY_RIGHT);
 		
+		dc.setPenWidth(2);
 		dc.drawLine(x-39, y+1, x-39, y-2);
 		dc.drawLine(x-39, y-2, x-42, y-2);
 		dc.drawLine(x-42, y-2, x-42, y-5);
@@ -476,12 +477,13 @@ class Indicators extends WatchUi.Drawable {
 		dc.drawLine(x-45, y-8, x-48, y-8);
 		dc.drawText(x-36, y-15, Graphics.FONT_XTINY, stairs.toString() /*+ "/" + stairG.toString()*/, Graphics.TEXT_JUSTIFY_LEFT);
 		
-		dc.drawText(x+75, y-34, Graphics.FONT_XTINY, miles.format("%.2f") + "mi", Graphics.TEXT_JUSTIFY_RIGHT);
+		dc.drawText(x+74, y-33, Graphics.FONT_XTINY, miles.format("%.2f") + "mi", Graphics.TEXT_JUSTIFY_RIGHT);
 		
 		dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-		dc.fillEllipse(x-75, y-25, 2, 3);
-		dc.fillEllipse(x-75, y-18, 1, 2);
-		dc.drawText(x-68, y-34, Graphics.FONT_XTINY, stepC.toString() + "/" + stepG.toString(), Graphics.TEXT_JUSTIFY_LEFT);
+		dc.setPenWidth(1);
+		dc.fillEllipse(x-73, y-24, 2, 3);
+		dc.fillEllipse(x-73, y-17, 1, 2);
+		dc.drawText(x-68, y-33, Graphics.FONT_XTINY, stepC.toString() + "/" + stepG.toString(), Graphics.TEXT_JUSTIFY_LEFT);
 		
 		dc.setPenWidth(5);
 		var stepGraphWidth = 160;
@@ -491,8 +493,8 @@ class Indicators extends WatchUi.Drawable {
 		} else {
 			stepGraphValue = x-(stepGraphWidth/2)+stepGraphValue;
 		}
-		dc.drawLine(x-(stepGraphWidth/2), y-40, stepGraphValue, y-40);
+		dc.drawLine(x-(stepGraphWidth/2), y-35, stepGraphValue, y-35);
 		dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-		dc.drawLine(stepGraphValue, y-40, x+(stepGraphWidth/2), y-40);
+		dc.drawLine(stepGraphValue, y-35, x+(stepGraphWidth/2), y-35);
 	}
 }
