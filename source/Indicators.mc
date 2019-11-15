@@ -13,7 +13,9 @@ const INDICATOR_LINE_WIDTH = 2;
 const BATTERY_HEAD_HEIGHT = 4;
 const BATTERY_MARGIN = 1;
 
-const BATTERY_LEVEL_SHOW = 50;
+const BATTERY_LEVEL_SHOW = 0;
+const BATTERY_LEVEL_HIGH = 75;
+const BATTERY_LEVEL_MID = 50;
 const BATTERY_LEVEL_LOW = 25;
 const BATTERY_LEVEL_CRITICAL = 10;
 
@@ -38,22 +40,22 @@ class Indicators extends WatchUi.Drawable {
     }
 
     function draw(dc) {
-		drawBatteryMeter(dc, 133, 7, 10);
+		drawBatteryMeter(dc, 146, 10, 10);
 		
 		var settings = Sys.getDeviceSettings();
 		if (settings.phoneConnected) {
-			drawBluetoothIcon(dc, 5, 6, 12);
+			drawBluetoothIcon(dc, 129, 8, 12);
 		}
 		if (settings.notificationCount > 0) {
-			drawNotificationIcon(dc, 26, 6, 12, settings.notificationCount);
+			drawNotificationIcon(dc, 103, 8, 12, settings.notificationCount);
 		}
 		if (settings.alarmCount > 0) {
-			drawAlarmIcon(dc, 42, 6, 12);
+			drawAlarmIcon(dc, 117, 8, 12);
 		}
-		drawTime(dc, 73, 50);
-		drawStepsGraph(dc, 73, 165);
-		drawHeartrate(dc, 73, 165);
-		drawActivity(dc, 73, 202);
+		drawTime(dc, 120, 52);
+		drawStepsGraph(dc, 120, 165);
+		//drawHeartrate(dc, 120, 165);
+		drawActivity(dc, 120, 230);
 		
 		dc.clear();
     }
@@ -90,9 +92,13 @@ class Indicators extends WatchUi.Drawable {
 		if (batteryLevel <= BATTERY_LEVEL_CRITICAL) {
 			fillColour = Graphics.COLOR_RED;
 		} else if (batteryLevel <= BATTERY_LEVEL_LOW) {
+			fillColour = Graphics.COLOR_ORANGE;
+		} else if (batteryLevel <= BATTERY_LEVEL_MID) {
 			fillColour = Graphics.COLOR_YELLOW;
+		} else if (batteryLevel <= BATTERY_LEVEL_HIGH) {
+			fillColour = Graphics.COLOR_GREEN;
 		} else {
-			fillColour = Graphics.COLOR_GREEN ;
+			fillColour = Graphics.COLOR_DK_GREEN ;
 		}
 	
 		dc.setColor(fillColour, Graphics.COLOR_TRANSPARENT);
@@ -105,7 +111,7 @@ class Indicators extends WatchUi.Drawable {
 			height - (2 * (INDICATOR_LINE_WIDTH + BATTERY_MARGIN)));
 			
 		if (batteryLevel <= BATTERY_LEVEL_SHOW) {
-			dc.drawText(x-(width/2)-3, y-height-1, Graphics.FONT_TINY, batteryLevel.toNumber().toString()+"%", Graphics.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(x-(width/2)-3, y-height-1, Graphics.FONT_XTINY, batteryLevel.toNumber().toString()+"%", Graphics.TEXT_JUSTIFY_RIGHT);
 		}
     }
 	
@@ -134,10 +140,10 @@ class Indicators extends WatchUi.Drawable {
 		var width = height;
 		var radius = 3;
 		var triangleH = 3;
-		var x1 = x - (width / 2);
+		var x1 = x - (width / 2)-12;
 		var y1 = y - ((height-triangleH) / 2);
 		var h1 = height-triangleH;
-		var x2 = x + (width / 2)-1;
+		var x2 = x + (width / 2)-1-12;
 		var y2 = height + 1;
 		dc.fillRoundedRectangle(x1, y1, width, h1, radius);
 		var pts = [ [x2-6,h1], [x2-1,h1-radius], [x2,y2] ];
@@ -145,10 +151,10 @@ class Indicators extends WatchUi.Drawable {
 		
 		dc.setPenWidth(1);
 		var txt = count <= 9 ? count.toString() : "+";
-		dc.drawText(x1-6, y-height+triangleH-1, Graphics.FONT_TINY, txt, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x, y-height+triangleH-2, Graphics.FONT_XTINY, txt, Graphics.TEXT_JUSTIFY_CENTER);
 		
 		dc.setColor(Graphics.COLOR_BLACK , Graphics.COLOR_TRANSPARENT);
-		dc.drawText(x, y-height-triangleH, Graphics.FONT_TINY, "...", Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x-12, y-height-triangleH-1, Graphics.FONT_XTINY, "..", Graphics.TEXT_JUSTIFY_CENTER);
 	}
 	
 	function drawAlarmIcon(dc, x, y, height) {
@@ -176,7 +182,7 @@ class Indicators extends WatchUi.Drawable {
 		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var date = Lang.format("$1$, $2$ $3$, $4$", [today.day_of_week, today.month, today.day, today.year]);
-		dc.drawText(x, y+33, Graphics.FONT_SMALL, date, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x, y+33, Graphics.FONT_XTINY, date, Graphics.TEXT_JUSTIFY_CENTER);
 		
 		var colon = 4;
         var hours = today.hour;
@@ -322,7 +328,7 @@ class Indicators extends WatchUi.Drawable {
 			dc.drawCircle(147,y-((stepH[0]*graphScale).toNumber()), 3); 
 	
 			dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-			dc.drawText(147, y-50, Graphics.FONT_TINY, (stepHmax).toString(), Graphics.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(147, y-50, Graphics.FONT_XTINY, (stepHmax).toString(), Graphics.TEXT_JUSTIFY_RIGHT);
 		}
 	}
 	
@@ -376,7 +382,7 @@ class Indicators extends WatchUi.Drawable {
 		    }
 		}
 		
-		dc.drawText(132, y-62, Graphics.FONT_TINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);
+		dc.drawText(132, y-62, Graphics.FONT_XTINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);
 		
 		var nowT = new Time.Moment(Time.now().value());
 		var hrDuration = new Time.Duration(3600);
@@ -391,8 +397,8 @@ class Indicators extends WatchUi.Drawable {
 		minHR = minHR == 255 ? "--" : minHR;
 		var maxHR = heartRateHistory.getMax();
 		maxHR = maxHR == 255 ? "--" : maxHR;
-		dc.drawText(1, y-62, Graphics.FONT_TINY, "min:" + minHR, Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(73, y-62, Graphics.FONT_TINY, "max:" + maxHR, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(1, y-62, Graphics.FONT_XTINY, "min:" + minHR, Graphics.TEXT_JUSTIFY_LEFT);
+		dc.drawText(73, y-62, Graphics.FONT_XTINY, "max:" + maxHR, Graphics.TEXT_JUSTIFY_CENTER);
 		
 		dc.setPenWidth(2);
 		while (hrI != null) {
@@ -435,11 +441,11 @@ class Indicators extends WatchUi.Drawable {
 		}
 		
 		dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-		//dc.drawText(0, y-10, Graphics.FONT_TINY, "40", Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(0, y-20, Graphics.FONT_TINY, "80", Graphics.TEXT_JUSTIFY_LEFT);
-		//dc.drawText(0, y-30, Graphics.FONT_TINY, "120", Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(0, y-40, Graphics.FONT_TINY, "160", Graphics.TEXT_JUSTIFY_LEFT);
-		//dc.drawText(0, y-50, Graphics.FONT_TINY, "200", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(0, y-10, Graphics.FONT_XTINY, "40", Graphics.TEXT_JUSTIFY_LEFT);
+		dc.drawText(0, y-20, Graphics.FONT_XTINY, "80", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(0, y-30, Graphics.FONT_XTINY, "120", Graphics.TEXT_JUSTIFY_LEFT);
+		dc.drawText(0, y-40, Graphics.FONT_XTINY, "160", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(0, y-50, Graphics.FONT_XTINY, "200", Graphics.TEXT_JUSTIFY_LEFT);
 	}
 	
 	function drawActivity(dc, x, y) {
@@ -456,28 +462,37 @@ class Indicators extends WatchUi.Drawable {
 		var miles = info.distance;
 		miles = miles == null ? 0.1 : miles/160934.4;
 		var stepC = info.steps;
-		stepC = stepC == null ? 3000 : stepC;
+		stepC = stepC == null ? 3000 : (stepC < 1 ? 1 : stepC);
 		var stepG = info.stepGoal;
 		stepG = stepG == null ? 6000 : stepG;
 		
-		dc.drawText(147, y-36, Graphics.FONT_TINY, cals.toString() + " C", Graphics.TEXT_JUSTIFY_RIGHT);
+		dc.drawText(x+43, y-15, Graphics.FONT_XTINY, cals.toString() + "C", Graphics.TEXT_JUSTIFY_RIGHT);
 		
-		dc.drawLine(1, y-20, 1, y-23);
-		dc.drawLine(1, y-23, 4, y-23);
-		dc.drawLine(4, y-23, 4, y-26);
-		dc.drawLine(4, y-26, 7, y-26);
-		dc.drawLine(7, y-26, 7, y-29);
-		dc.drawLine(7, y-29, 10, y-29);
-		dc.drawText(12, y-36, Graphics.FONT_TINY, stairs.toString() + " / " + stairG.toString(), Graphics.TEXT_JUSTIFY_LEFT);
+		dc.drawLine(x-39, y+1, x-39, y-2);
+		dc.drawLine(x-39, y-2, x-42, y-2);
+		dc.drawLine(x-42, y-2, x-42, y-5);
+		dc.drawLine(x-42, y-5, x-45, y-5);
+		dc.drawLine(x-45, y-5, x-45, y-8);
+		dc.drawLine(x-45, y-8, x-48, y-8);
+		dc.drawText(x-36, y-15, Graphics.FONT_XTINY, stairs.toString() /*+ "/" + stairG.toString()*/, Graphics.TEXT_JUSTIFY_LEFT);
 		
-		dc.drawText(147, y-20, Graphics.FONT_TINY, miles.format("%.2f") + " mi", Graphics.TEXT_JUSTIFY_RIGHT);
+		dc.drawText(x+75, y-34, Graphics.FONT_XTINY, miles.format("%.2f") + "mi", Graphics.TEXT_JUSTIFY_RIGHT);
 		
 		dc.setColor(Graphics.COLOR_DK_GREEN, Graphics.COLOR_TRANSPARENT);
-		dc.fillEllipse(5, y-13, 2, 3);
-		dc.fillEllipse(5, y-6, 1, 2);
-		dc.drawText(12, y-20, Graphics.FONT_TINY, stepC.toString() + " / " + stepG.toString(), Graphics.TEXT_JUSTIFY_LEFT);
+		dc.fillEllipse(x-75, y-25, 2, 3);
+		dc.fillEllipse(x-75, y-18, 1, 2);
+		dc.drawText(x-68, y-34, Graphics.FONT_XTINY, stepC.toString() + "/" + stepG.toString(), Graphics.TEXT_JUSTIFY_LEFT);
 		
 		dc.setPenWidth(5);
-		dc.drawLine(0, y, ((stepC.toDouble()/stepG.toDouble())*148).toNumber(), y);
+		var stepGraphWidth = 160;
+		var stepGraphValue = ((stepC.toDouble()/stepG.toDouble())*stepGraphWidth).toNumber();
+		if (stepGraphValue > stepGraphWidth) {
+			stepGraphValue = x+(stepGraphWidth/2);
+		} else {
+			stepGraphValue = x-(stepGraphWidth/2)+stepGraphValue;
+		}
+		dc.drawLine(x-(stepGraphWidth/2), y-40, stepGraphValue, y-40);
+		dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+		dc.drawLine(stepGraphValue, y-40, x+(stepGraphWidth/2), y-40);
 	}
 }

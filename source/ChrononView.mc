@@ -37,7 +37,7 @@ class ChrononView extends WatchUi.WatchFace {
     }
     
 	function onPartialUpdate(dc) {
-		dc.setClip(100, 105, 32, 19);
+		/*dc.setClip(100, 105, 32, 19);
 		
 		var hrText = "";
 		var currentHeartRate = Activity.getActivityInfo().currentHeartRate;
@@ -55,7 +55,7 @@ class ChrononView extends WatchUi.WatchFace {
 		    }
 		}
 		
-		dc.drawText(132, 105, Graphics.FONT_TINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);
+		dc.drawText(132, 105, Graphics.FONT_TINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);*/
 	}
 
     // Called when this View is removed from the screen. Save the
