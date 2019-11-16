@@ -55,7 +55,7 @@ class ChrononView extends WatchUi.WatchFace {
 		    }
 		}
 		
-		dc.drawText(132, 105, Graphics.FONT_TINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);*/
+		dc.drawText(132, 105, Graphics.FONT_XTINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);*/
 	}
 
     // Called when this View is removed from the screen. Save the

@@ -53,8 +53,8 @@ class Indicators extends WatchUi.Drawable {
 			drawAlarmIcon(dc, 117, 8, 12);
 		}
 		drawTime(dc, 120, 94);
-		drawStepsGraph(dc, 120, 190);
-		//drawHeartrate(dc, 120, 190);
+		drawStepsGraph(dc, 36, 190);
+		drawHeartrate(dc, 36, 190);
 		drawActivity(dc, 120, 230);
 		
 		dc.clear();
@@ -290,7 +290,8 @@ class Indicators extends WatchUi.Drawable {
 		
 		var actH = Act.getHistory();
 		var stepHmax = 0;
-		if (actH != null && actH.size() > 0) {
+		if (actH != null && actH.size() > 0) 
+		{
 			var stepH = [0,0,0,0,0,0,0];
 			for (var i=0; i < actH.size() && i < stepH.size(); i++) {
 				if (actH[i].steps != null) {
@@ -300,6 +301,10 @@ class Indicators extends WatchUi.Drawable {
 					}
 				}
 			}
+			/*
+			stepHmax = 7100;
+			var stepH = [3000,6500,7100,2500,5500,4800,5700];
+			*/
 			
 			stepHmax = Math.ceil(stepHmax/1000.0).toNumber();
 			var mod2 = stepHmax % 2 == 0;
@@ -307,28 +312,29 @@ class Indicators extends WatchUi.Drawable {
 			var graphScale = (40.0/stepHmax);
 			
 			var pts = [ 
-				[36,y],
-				[36,y-((stepH[6]*graphScale).toNumber())],
-				[64,y-((stepH[5]*graphScale).toNumber())], 
-				[92,y-((stepH[4]*graphScale).toNumber())], 
-				[120,y-((stepH[3]*graphScale).toNumber())], 
-				[148,y-((stepH[2]*graphScale).toNumber())], 
-				[176,y-((stepH[1]*graphScale).toNumber())], 
-				[204,y-((stepH[0]*graphScale).toNumber())], 
-				[204,y]  ];
+				[x+0,y],
+				[x+0,y-((stepH[6]*graphScale).toNumber())],
+				[x+28,y-((stepH[5]*graphScale).toNumber())], 
+				[x+56,y-((stepH[4]*graphScale).toNumber())], 
+				[x+84,y-((stepH[3]*graphScale).toNumber())], 
+				[x+112,y-((stepH[2]*graphScale).toNumber())], 
+				[x+140,y-((stepH[1]*graphScale).toNumber())], 
+				[x+168,y-((stepH[0]*graphScale).toNumber())], 
+				[x+168,y]  ];
 			dc.fillPolygon(pts);
 			
 			dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-			dc.drawCircle(36,y-((stepH[6]*graphScale).toNumber()), 3);
-			dc.drawCircle(64,y-((stepH[5]*graphScale).toNumber()), 3); 
-			dc.drawCircle(92,y-((stepH[4]*graphScale).toNumber()), 3); 
-			dc.drawCircle(120,y-((stepH[3]*graphScale).toNumber()), 3); 
-			dc.drawCircle(148,y-((stepH[2]*graphScale).toNumber()), 3); 
-			dc.drawCircle(176,y-((stepH[1]*graphScale).toNumber()), 3); 
-			dc.drawCircle(204,y-((stepH[0]*graphScale).toNumber()), 3); 
+			dc.setPenWidth(2);
+			dc.drawCircle(x+0,y-((stepH[6]*graphScale).toNumber()), 3);
+			dc.drawCircle(x+28,y-((stepH[5]*graphScale).toNumber()), 3); 
+			dc.drawCircle(x+56,y-((stepH[4]*graphScale).toNumber()), 3); 
+			dc.drawCircle(x+84,y-((stepH[3]*graphScale).toNumber()), 3); 
+			dc.drawCircle(x+112,y-((stepH[2]*graphScale).toNumber()), 3); 
+			dc.drawCircle(x+140,y-((stepH[1]*graphScale).toNumber()), 3); 
+			dc.drawCircle(x+168,y-((stepH[0]*graphScale).toNumber()), 3); 
 	
 			dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-			dc.drawText(204, y-50, Graphics.FONT_XTINY, (stepHmax).toString(), Graphics.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(x+168, y-50, Graphics.FONT_XTINY, (stepHmax).toString(), Graphics.TEXT_JUSTIFY_RIGHT);
 		}
 	}
 	
@@ -336,29 +342,14 @@ class Indicators extends WatchUi.Drawable {
 		dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
 		dc.setPenWidth(1);
 		
-		dc.drawLine(0, y, 148, y);
-		dc.drawLine(0, y-10, 148, y-10);
-		dc.drawLine(0, y-20, 148, y-20);
-		dc.drawLine(0, y-30, 148, y-30);
-		dc.drawLine(0, y-40, 148, y-40);
-		dc.drawLine(36, y, 36, y-40);
-		dc.drawLine(73, y, 73, y-40);
-		dc.drawLine(110, y, 110, y-40);
-		
-		dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
-		var ptsHeart = [ 
-			[140,y-54], 
-			[142,y-56], 
-			[144,y-56], 
-			[145,y-55], 
-			[145,y-53], 
-			[140,y-48], 
-			[135,y-53], 
-			[135,y-55], 
-			[136,y-56], 
-			[138,y-56],
-			[140,y-54] ];
-		dc.fillPolygon(ptsHeart);
+		dc.drawLine(x+0, y, x+168, y);
+		dc.drawLine(x+0, y-10, x+168, y-10);
+		dc.drawLine(x+0, y-20, x+168, y-20);
+		dc.drawLine(x+0, y-30, x+168, y-30);
+		dc.drawLine(x+0, y-40, x+168, y-40);
+		dc.drawLine(x+42, y, x+42, y-40);
+		dc.drawLine(x+84, y, x+84, y-40);
+		dc.drawLine(x+126, y, x+126, y-40);
 		
 		var hrText = "";
 		var heartRateHistory = null;
@@ -368,28 +359,44 @@ class Indicators extends WatchUi.Drawable {
 		var hrT = null;
 		var hrTPrev = null;
 		var currentHeartRate = Activity.getActivityInfo().currentHeartRate;
-		if(currentHeartRate){
+		if(currentHeartRate != null){
 		    hrText = currentHeartRate;
 		}else{
-		    heartRateHistory = Act.getHeartRateHistory(1, true);
+		    heartRateHistory = SH.getHeartRateHistory({ :period => 1, :order => SensorHistory.ORDER_NEWEST_FIRST });
 		    hrI = heartRateHistory.next();
 		    if (hrI != null) {
-			    hr = hrI.heartRate;
+			    hr = hrI.data;
 			
-			    if(hr != Act.INVALID_HR_SAMPLE){
+			    if(hr != Act.INVALID_HR_SAMPLE && hr != null){
 			        hrText = hr;
 			    }
 		    }
 		}
 		
-		dc.drawText(132, y-62, Graphics.FONT_XTINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);
+		var heartOffsetX = 219;
+		var heartOffsetY = -17;
+		dc.setColor(Graphics.COLOR_YELLOW, Graphics.COLOR_TRANSPARENT);
+		dc.drawText(heartOffsetX+13, y+heartOffsetY-30, Graphics.FONT_XTINY, hrText == "" ? "--" : hrText, Graphics.TEXT_JUSTIFY_RIGHT);
+		var ptsHeart = [ 
+			[heartOffsetX+5,y+heartOffsetY-6], 
+			[heartOffsetX+7,y+heartOffsetY-8], 
+			[heartOffsetX+9,y+heartOffsetY-8], 
+			[heartOffsetX+10,y+heartOffsetY-7], 
+			[heartOffsetX+10,y+heartOffsetY-5], 
+			[heartOffsetX+5,y+heartOffsetY-0], 
+			[heartOffsetX+0,y+heartOffsetY-5], 
+			[heartOffsetX+0,y+heartOffsetY-7], 
+			[heartOffsetX+1,y+heartOffsetY-8], 
+			[heartOffsetX+3,y+heartOffsetY-8],
+			[heartOffsetX+5,y+heartOffsetY-6] ];
+		dc.fillPolygon(ptsHeart);
 		
 		var nowT = new Time.Moment(Time.now().value());
 		var hrDuration = new Time.Duration(3600);
-		heartRateHistory = Act.getHeartRateHistory(hrDuration, true);
+		heartRateHistory = SH.getHeartRateHistory({ :order => SensorHistory.ORDER_NEWEST_FIRST });
 		hrI = heartRateHistory.next();
 		if (hrI != null) {
-		   	hr = hrI.heartRate;
+		   	hr = hrI.data;
 		   	hrT = nowT.compare(hrI.when);
 		}
 		
@@ -397,8 +404,8 @@ class Indicators extends WatchUi.Drawable {
 		minHR = minHR == 255 ? "--" : minHR;
 		var maxHR = heartRateHistory.getMax();
 		maxHR = maxHR == 255 ? "--" : maxHR;
-		dc.drawText(1, y-62, Graphics.FONT_XTINY, "min:" + minHR, Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(73, y-62, Graphics.FONT_XTINY, "max:" + maxHR, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x-4, y+heartOffsetY-30, Graphics.FONT_XTINY, maxHR, Graphics.TEXT_JUSTIFY_RIGHT);
+		dc.drawText(x-4, y+heartOffsetY-15, Graphics.FONT_XTINY, minHR, Graphics.TEXT_JUSTIFY_RIGHT);
 		
 		dc.setPenWidth(2);
 		while (hrI != null) {
@@ -408,8 +415,8 @@ class Indicators extends WatchUi.Drawable {
 			}
 			
 			hrI = heartRateHistory.next();
-		    if (hrI != null && hrI.heartRate) {
-		    	hr = hrI.heartRate;
+		    if (hrI != null && hrI.data != null) {
+		    	hr = hrI.data;
 		   		hrT = nowT.compare(hrI.when);
 		   		
 				if(hr != Act.INVALID_HR_SAMPLE && hrTPrev != null && hrPrev != null && hrT != null && hr != null) {
@@ -428,24 +435,28 @@ class Indicators extends WatchUi.Drawable {
 						hrColor = Graphics.COLOR_LT_GRAY;
 					}
 					dc.setColor(hrColor, Graphics.COLOR_TRANSPARENT);
-					dc.drawLine(
-						147-((hrTPrev.toDouble()/3600.0)*147).toNumber(), y-((hrPrev-40)/4), 
-						147-((hrT.toDouble()/3600.0)*147).toNumber(), y-((hr-40)/4));
+					if (hrT.toDouble()<3650.0 && hrTPrev.toDouble()<3600.0) {
+						dc.drawLine(
+							x+168-((hrTPrev.toDouble()/3600.0)*170).toNumber(), y-((hrPrev-40)/4), 
+							x+168-((hrT.toDouble()/3600.0)*170).toNumber(), y-((hr-40)/4));
+					} else {
+						hrI = null;
+					}
 				}
 		    }
 		    //else if (hrI == null && hrTPrev != null && hrPrev != null) {
 			//	dc.drawLine(
-			//		147-((hrTPrev/14400)*147), y-((hrPrev-40)/4), 
-			//		0, y-((hrPrev-40)/4));
+			//		x+147-((hrTPrev/14400)*147), y-((hrPrev-40)/4), 
+			//		x+0, y-((hrPrev-40)/4));
 			//}
 		}
 		
 		dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-		//dc.drawText(0, y-10, Graphics.FONT_XTINY, "40", Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(0, y-20, Graphics.FONT_XTINY, "80", Graphics.TEXT_JUSTIFY_LEFT);
-		//dc.drawText(0, y-30, Graphics.FONT_XTINY, "120", Graphics.TEXT_JUSTIFY_LEFT);
-		dc.drawText(0, y-40, Graphics.FONT_XTINY, "160", Graphics.TEXT_JUSTIFY_LEFT);
-		//dc.drawText(0, y-50, Graphics.FONT_XTINY, "200", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(x+0, y-10, Graphics.FONT_XTINY, "40", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(x+0, y-20, Graphics.FONT_XTINY, "80", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(x+0, y-30, Graphics.FONT_XTINY, "120", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(x+0, y-40, Graphics.FONT_XTINY, "160", Graphics.TEXT_JUSTIFY_LEFT);
+		//dc.drawText(x+0, y-50, Graphics.FONT_XTINY, "200", Graphics.TEXT_JUSTIFY_LEFT);
 	}
 	
 	function drawActivity(dc, x, y) {
