@@ -13,7 +13,7 @@ const INDICATOR_LINE_WIDTH = 2;
 const BATTERY_HEAD_HEIGHT = 4;
 const BATTERY_MARGIN = 1;
 
-const BATTERY_LEVEL_SHOW = 0;
+const BATTERY_LEVEL_SHOW = 99;
 const BATTERY_LEVEL_HIGH = 75;
 const BATTERY_LEVEL_MID = 50;
 const BATTERY_LEVEL_LOW = 25;
@@ -40,19 +40,19 @@ class Indicators extends WatchUi.Drawable {
     }
 
     function draw(dc) {
-		drawBatteryMeter(dc, 146, 10, 10);
+		drawBatteryMeter(dc, 170, 22, 12);
 		
 		var settings = Sys.getDeviceSettings();
 		if (settings.phoneConnected) {
-			drawBluetoothIcon(dc, 129, 8, 12);
+			drawBluetoothIcon(dc, 67, 20, 12);
 		}
 		if (settings.notificationCount > 0) {
-			drawNotificationIcon(dc, 103, 8, 12, settings.notificationCount);
+			drawNotificationIcon(dc, 110, 20, 12, settings.notificationCount);
 		}
 		if (settings.alarmCount > 0) {
-			drawAlarmIcon(dc, 117, 8, 12);
+			drawAlarmIcon(dc, 81, 20, 12);
 		}
-		drawTime(dc, 120, 94);
+		drawTime(dc, 120, 96);
 		drawStepsGraph(dc, 36, 190);
 		drawHeartrate(dc, 36, 190);
 		drawActivity(dc, 120, 230);
@@ -111,7 +111,7 @@ class Indicators extends WatchUi.Drawable {
 			height - (2 * (INDICATOR_LINE_WIDTH + BATTERY_MARGIN)));
 			
 		if (batteryLevel <= BATTERY_LEVEL_SHOW) {
-			dc.drawText(x-(width/2)-3, y-height-1, Graphics.FONT_XTINY, batteryLevel.toNumber().toString()+"%", Graphics.TEXT_JUSTIFY_RIGHT);
+			dc.drawText(x-(width/2)-3, y-height, Graphics.FONT_XTINY, batteryLevel.toNumber().toString()+"%", Graphics.TEXT_JUSTIFY_RIGHT);
 		}
     }
 	
@@ -140,13 +140,13 @@ class Indicators extends WatchUi.Drawable {
 		var width = height;
 		var radius = 3;
 		var triangleH = 3;
-		var x1 = x - (width / 2)-12;
+		var x1 = x - (width / 2)-height;
 		var y1 = y - ((height-triangleH) / 2);
 		var h1 = height-triangleH;
-		var x2 = x + (width / 2)-1-12;
-		var y2 = height + 1;
+		var x2 = x + (width / 2)-1-height;
+		var y2 = y + ((height-triangleH) / 2);
 		dc.fillRoundedRectangle(x1, y1, width, h1, radius);
-		var pts = [ [x2-6,h1], [x2-1,h1-radius], [x2,y2] ];
+		var pts = [ [x1,y1+radius], [x2-radius,y1+radius], [x2,y2+triangleH] ];
 		dc.fillPolygon(pts);
 		
 		dc.setPenWidth(1);
@@ -182,7 +182,7 @@ class Indicators extends WatchUi.Drawable {
 		
 		var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
 		var date = Lang.format("$1$, $2$ $3$, $4$", [today.day_of_week, today.month, today.day, today.year]);
-		dc.drawText(x, y-72, Graphics.FONT_XTINY, date, Graphics.TEXT_JUSTIFY_CENTER);
+		dc.drawText(x, y-70, Graphics.FONT_XTINY, date, Graphics.TEXT_JUSTIFY_CENTER);
 		
 		var colon = 8;
         var hours = today.hour;
